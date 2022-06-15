@@ -11,7 +11,7 @@ namespace AutoDealers.BL
     public class Contexto : DbContext
     {
         public Contexto() : base(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDBFilename=" +
-            Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\AutoDealersDB.mdf")
+            Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\AutoDealersL4DB.mdf")
         {
 
         }

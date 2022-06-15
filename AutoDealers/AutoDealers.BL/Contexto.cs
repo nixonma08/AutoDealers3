@@ -10,9 +10,11 @@ namespace AutoDealers.BL
 {
     public class Contexto : DbContext
     {
-        public Contexto() : base(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDBFilename=" +
-            Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\AutoDealersL4DB.mdf")
+  
+ 
+        public Contexto() : base(@"C:\Users\nixon\OneDrive\Documentos\Proyecto de Progra4\AutoDealersL4DB.mdf")
         {
+            
 
         }
 
